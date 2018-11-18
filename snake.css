@@ -1,0 +1,30 @@
+#view{
+    width: 500px;
+    height: 500px;
+    background-color: #eee;
+    float: left;
+    border: 1px solid #aaa;
+}
+
+#info{
+    width:200px;
+    height:500px;
+    background-color: #0ff;
+    float: left;
+}
+
+#clear{
+    clear: both;
+}
+
+#main{
+    margin: 0px auto;
+    width: 702px;
+}
+
+.box{
+    /* width:248px;
+    height: 248px; */
+    float: left;
+    border: 1px solid #aaa;
+}

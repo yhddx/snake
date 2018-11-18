@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="zh-cn" />
+    <meta name="robots" content="all" />
+    <meta name="author" content="yanghuai" />
+    <meta name="Copyright" content="Copyright yanghuai All Rights Reserved." />
+    <link rel="stylesheet" type="text/css" href="snake.css" />
+    <title>贪吃蛇</title>
+</head>
+
+<body>
+    <div id="main">
+        <div id="view">
+
+        </div>
+
+        <div id="info">
+            <form>
+                <select name="box_size" id="size_selector">
+                    <option value="1">20x20</option>
+                    <option selected=true value="2">25x25</option>
+                </select>
+                <select name="box_speed" id="speed_selector">
+                    <option value="1">1</option>
+                    <option selected=true value="2">2</option>
+                </select>
+                <input type="button" value="开始" onclick="start()">
+            </form>
+        </div>
+
+        <div id="clear">
+
+        </div>
+    </div>
+    <script src="snake.js"></script>
+</body>
+
+</html>
